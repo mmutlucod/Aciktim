@@ -1,0 +1,75 @@
+.Profile>form {
+    color: E9DAD9;
+}
+
+.Profile {
+    padding: 5% 10% 5% 10%;
+}
+
+.Profile form {
+    background-color: rgba(233, 218, 217, 0.56);
+    align-items: center;
+}
+
+.Profile .Item {
+    font-weight: bold;
+}
+
+.Profile .item-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* İhtiyaca göre ayarlayabilirsiniz */
+}
+
+.Profile input,
+textarea {
+    border: none;
+    width: 100%;
+    margin-right: 20%;
+    margin-left: 10%;
+    padding: 0.5%;
+}
+
+.Profile label {
+    width: 50%;
+}
+
+.Profile input{
+    align-items: left;
+}
+
+.Profile h1 {
+    text-align: center;
+    color: black;
+    padding: 3%;
+}
+
+.Profile .btn button {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    margin: 3% 7% 3% 75%;
+    width: 20%;
+}
+
+.Profile .btn button:nth-child(2) {
+    margin-top: 0%;
+}
+
+.Profile .btn {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: none;
+    width: 100%;
+}
+
+.Profile .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+

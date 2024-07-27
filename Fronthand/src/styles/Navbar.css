@@ -1,0 +1,68 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: rgba(252, 203, 76, 1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.aciktim {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.burger {
+  margin-right: 5px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 5px;
+}
+
+.link:hover,
+.aciktim:hover {
+  color: #c97a20;
+}
+
+/* Responsive tasarım için media query */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .links {
+    margin-top: 15px;
+  }
+
+  .link {
+    margin: 0;
+  }
+}
+.admin-link {
+  color: #ff0000; /* veya istediğiniz renk */
+}

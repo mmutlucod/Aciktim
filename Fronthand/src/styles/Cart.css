@@ -1,0 +1,22 @@
+.Cart .rowItems{
+    /* color:  rgba(252, 203, 76, 1); */
+    padding: 1%;
+
+}
+
+.Cart .parts  button{
+    border: none;
+    background-color: rgba(252, 203, 76, 1);
+    height: 50px;
+    width: 98%;
+    font-size: xx-large;
+    margin: 1%;
+
+}
+
+.Cart .parts h2,
+.Cart .parts button{
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgba(220, 87, 87, 1);
+}

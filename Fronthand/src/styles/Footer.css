@@ -1,0 +1,20 @@
+.Footer{
+    background-color: rgba(232, 232, 232, 1); 
+    padding: 0%;   
+    margin: 0%;
+}
+
+.Footer p {
+    font-size: xx-small;
+    padding: 0% 5% 1% 5% ;
+}
+
+.Footer .row {
+    padding:  1% 5% 1% 5% ;
+    color: rgba(220, 87, 87, 1);
+    font-size:x-large;
+}
+
+.Footer text {
+    text-decoration: underline;
+}

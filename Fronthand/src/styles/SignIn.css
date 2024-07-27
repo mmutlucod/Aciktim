@@ -1,0 +1,78 @@
+.SingIn > form {
+    color: E9DAD9;
+    
+}
+.SingIn {
+    padding: 5% 20% 5% 20% ;
+}
+
+.SingIn form {
+    background-color: rgba(233, 218, 217, 0.56);
+    align-items: center;
+}
+
+.SingIn .Item{
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.SingIn input,
+.SingIn label, 
+.SingIn textarea{
+    width: 75%;
+    margin-left: 10%;
+    border: none;    
+}
+
+.SingIn input,label{
+    height: 40px;
+}
+
+.SingIn textarea {
+    height: 60%;
+}
+
+.SingIn h1{
+    text-align: center ;
+    /* text-shadow:2px 2px 2px  black;
+    color: white;
+    display:"inline-block"; */
+    color: black;
+}
+
+.SingIn .btn button{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    margin: 0% 7% 3% 75%;
+    
+}
+
+.SingIn .btn {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: none;
+}
+
+.SingIn .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.SingIn .error {
+    color: red;
+}
+
+.SingIn .eyeBtn {
+    background-color: rgba(233, 218, 217, 0.56);
+    border: none;
+}
+
+.SingIn .eye:hover {
+    color: white;
+}

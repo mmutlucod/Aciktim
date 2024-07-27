@@ -1,0 +1,77 @@
+.CartSummary {
+    background-color: rgba(252, 203, 76, 1);
+    margin: 10%;    
+}
+
+.innerText{
+    padding: 0% 5% 3% 5%;
+}
+.CartSummary h2 {
+    text-align: center;
+}
+
+.CartSummary h2,
+.CartSummary h4 {
+    color: rgba(220, 87, 87, 1);
+    text-decoration: underline;
+}
+
+.CartSummary .products {
+    display: flex;
+    justify-content: space-between;
+    /* Öğeleri arasında boşluk bırakmak için */
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgba(220, 87, 87, 1);
+}
+
+th,
+td {
+    border: 1px solid rgba(220, 87, 87, 1);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(220, 87, 87, 1);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(245, 209, 115, 1);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(233, 218, 217, 0.56);
+}
+
+.CartSummary button {
+    border: none;
+    background-color: rgba(220, 87, 87, 1);
+    color: rgba(245, 209, 115, 1);
+    font-size: x-large;
+}
+
+.CartSummary .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CartSummary .exitBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.CartSummary .exitBtn button {
+    font-size: medium;
+}
+
+.CartSummary select[name='payment']  {
+    background-color: rgba(245, 209, 115, 1);
+    border-color: rgba(220, 87, 87, 1);
+}
